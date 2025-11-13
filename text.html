@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Präsentationstext: Anders auf Deutsch</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            padding-bottom: 80px;
+            background: #f5f5f5;
+        }
+
+        .controls {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #333;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+
+        .controls button {
+            background: #fff;
+            border: none;
+            padding: 12px 20px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            min-width: 50px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .controls button:active {
+            transform: scale(0.95);
+        }
+
+        .controls .size-display {
+            background: #fff;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 1.8em;
+            color: #222;
+            margin-bottom: 0.5em;
+            border-bottom: 3px solid #333;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #444;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            color: #666;
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+        }
+
+        hr {
+            margin: 2em 0;
+            border: none;
+            border-top: 2px solid #ddd;
+        }
+
+        p {
+            margin-bottom: 1em;
+        }
+
+        strong {
+            color: #000;
+            font-weight: 600;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 1em;
+        }
+
+        li {
+            margin-bottom: 0.5em;
+        }
+
+        .slide-marker {
+            background: #e3f2fd;
+            padding: 8px 12px;
+            border-left: 4px solid #2196F3;
+            margin: 1em 0;
+            border-radius: 4px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+                padding-bottom: 80px;
+            }
+
+            .content {
+                padding: 15px;
+            }
+
+            .controls {
+                padding: 10px;
+                gap: 10px;
+            }
+
+            .controls button {
+                padding: 10px 15px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="controls">
+        <button onclick="decreaseSize()" aria-label="Text verkleinern">A-</button>
+        <div class="size-display">
+            <span id="sizeDisplay">100%</span>
+        </div>
+        <button onclick="increaseSize()" aria-label="Text vergrößern">A+</button>
+        <button onclick="resetSize()" aria-label="Zurücksetzen">Reset</button>
+    </div>
+
+    <div class="content" id="content">
+        <h1>Präsentationstext: Die vielen Wörter für "anders" auf Deutsch</h1>
+        <h2>Vollständiger Text für den Präsentator</h2>
+
+        <hr>
+
+        <h2>FOLIE 1: Der Anfang</h2>
+
+        <p class="slide-marker"><strong>[Zeigen Sie Folie 1]</strong></p>
+
+        <p>Heute will ich über "anders" sprechen.</p>
+
+        <p>Schauen Sie diese vier Sätze an: "Das ist anders", "Das ist verschieden", "Das ist unterschiedlich", "Das ist ein anderes Ding". Auf den ersten Blick scheinen alle das Gleiche zu bedeuten. Aber warum haben wir im Deutschen vier verschiedene Wörter für eine Idee, die im Englischen oft nur mit "different" ausgedrückt wird?</p>
+
+        <p>Die Antwort zeigt uns etwas Faszinierendes über die deutsche Sprache: Sie macht feine Unterschiede, die andere Sprachen nicht machen. Jedes dieser Wörter hat seine eigene Perspektive, seine eigene grammatische Funktion und seinen eigenen sozialen Kontext.</p>
+
+        <p>Lassen Sie uns diese Werkzeuge genauer anschauen.</p>
+
+        <hr>
+
+        <h2>FOLIE 2: VERSCHIEDEN & ANDERE</h2>
+
+        <p class="slide-marker"><strong>[Zeigen Sie Folie 2]</strong></p>
+
+        <ul>
+            <li>Beginnen wir mit <strong>VERSCHIEDEN</strong>. Dieses Wort bedeutet "viele Arten von etwas". Wenn Sie sagen "Im Supermarkt gibt es verschiedene Brotsorten", meinen Sie: Es gibt nicht nur eine Art Brot, sondern viele - Weißbrot, Schwarzbrot, Vollkornbrot. Das Wort ist neutral und formal. Sie können es im Büro benutzen: "Wir haben verschiedene Optionen." Es zeigt Vielfalt, ohne zu werten.</li>
+        </ul>
+
+        <p>Grammatisch ist "verschieden" ein Adjektiv. Interessant: Es kann auch als Pronomen stehen, zum Beispiel: "Verschiedene sagen, dass..."</p>
+
+        <ul>
+            <li>Jetzt zu <strong>ANDERE</strong>. Dieses Wort bedeutet "nicht diese, sondern jene". Es macht eine klare Trennung. Wenn Sie sagen "Ich möchte ein anderes Buch lesen", meinen Sie: nicht dieses Buch hier, sondern ein zweites, ein alternatives Buch.</li>
+        </ul>
+
+        <p>"Andere" schafft eine Distanz zwischen "hier" und "dort", zwischen "wir" und "sie". Die Phrase "Die anderen" ist im Deutschen sehr häufig und schafft oft eine Gruppentrennung. "Die anderen sind schuld" - Sie hören sofort die Distanz.</p>
+
+        <hr>
+
+        <h2>FOLIE 3: ANDERS & UNTERSCHIED</h2>
+
+        <p class="slide-marker"><strong>[Zeigen Sie Folie 3]</strong></p>
+
+        <ul>
+            <li><strong>ANDERS</strong> ist besonders interessant, weil es ein Adverb ist. Es bedeutet "auf eine andere Art und Weise". Wenn Sie sagen "Sie spricht anders als ihre Schwester", beschreiben Sie nicht was sie spricht, sondern wie sie spricht - die Art und Weise ist nicht gleich.</li>
+        </ul>
+
+        <p>Sozial gesehen markiert "anders" oft eine Abweichung von der Norm. "Du bist anders" - das ist selten ein Kompliment. Es bedeutet oft: Du gehörst nicht dazu, du bist ein Außenseiter. In der Jugendsprache: "Du bist so anders" ist meist nicht positiv gemeint. Die Phrase "anders sein" ist im Deutschen stark mit dem Konzept des Außenseiters verbunden.</p>
+
+        <ul>
+            <li>Der <strong>UNTERSCHIED</strong> ist unser einziges Substantiv in dieser Gruppe. Es ist "der Unterschied" - maskulin, Plural "die Unterschiede". Es bedeutet die messbare Differenz zwischen zwei Dingen. "Der Unterschied zwischen Tag und Nacht ist groß" - hier sprechen wir über einen objektiven, messbaren Kontrast.</li>
+        </ul>
+
+        <p>Das Wort ist wissenschaftlich, neutral, analytisch. Wenn Sie Preise vergleichen: "Was ist der Unterschied?" - Sie fragen nach der konkreten Differenz. 5 Euro hier, 8 Euro dort - der Unterschied ist 3 Euro. Es gibt auch das Verb dazu: "sich unterscheiden" - das zeigt, wie zentral dieses Konzept im Deutschen ist.</p>
+
+        <hr>
+
+        <h2>FOLIE 4: UNTERSCHIEDLICH & Grammatik</h2>
+
+        <p class="slide-marker"><strong>[Zeigen Sie Folie 4]</strong></p>
+
+        <p><strong>UNTERSCHIEDLICH</strong> bedeutet "variiert" oder "nicht gleich". Es zeigt ein Spektrum, eine Bandbreite. "Die Schüler haben unterschiedliche Talente" - ein Schüler kann gut malen, ein anderer gut rechnen, ein dritter gut singen. Es betont die Variation.</p>
+
+        <p>Dieses Wort wird oft statistisch verwendet. "Unsere Arbeitszeiten sind sehr unterschiedlich" - manchmal 6 Stunden, manchmal 9 Stunden. Es zeigt, dass etwas auf einer Skala variiert. Grammatisch ist es ein normales Adjektiv, oft verstärkt mit "sehr" oder "ganz": "sehr unterschiedlich", "ganz unterschiedlich".</p>
+
+        <p>Schauen wir uns die grammatische Übersicht an. Diese Tabelle zeigt die wichtigste Unterscheidung:</p>
+        <ul>
+            <li>Verschieden und unterschiedlich sind Adjektive - sie beschreiben Nomen</li>
+            <li>Andere kann Adjektiv ODER Pronomen sein - sehr flexibel</li>
+            <li>Anders ist NUR Adverb - es beschreibt Verben oder Adjektive</li>
+            <li>Der Unterschied ist ein Substantiv - unser einziges Hauptwort in der Gruppe</li>
+        </ul>
+
+        <p>Diese grammatischen Unterschiede sind nicht nur technische Details. Sie bestimmen, wie wir diese Wörter benutzen können und welche Nuancen wir ausdrücken.</p>
+
+        <hr>
+
+        <h2>FOLIE 5: Soziale Beobachtungen</h2>
+
+        <p class="slide-marker"><strong>[Zeigen Sie Folie 5]</strong></p>
+
+        <p>Die Wahl des Wortes zeigt oft die Einstellung des Sprechers.</p>
+
+        <p>"Die anderen" schafft fast immer eine Wir-Sie-Trennung. Es ist die klassische Ingroup-Outgroup-Markierung. "Die anderen sind schuld" - Sie hören sofort: wir nicht, die da drüben.</p>
+
+        <p>"Anders sein" markiert Abweichung von der Gruppe. Es ist personal und oft kritisch. Wenn jemand sagt "Du bist so anders", ist das selten neutral. Es bedeutet: Du passt nicht zu uns, du bist nicht normal, du bist ein Außenseiter.</p>
+
+        <p>"Verschieden" ist die neutralste Form. Deshalb finden Sie es in offiziellen Texten, in formellen Dokumenten. "Menschen verschiedener Herkunft" klingt neutral und respektvoll.</p>
+
+        <p>"Unterschiedlich" ist es in Bildung und Arbeit oft positiv besetzt. "Unterschiedliche Perspektiven", "Unterschiedliche Lernstile". Es klingt als eine positivere Konnotation als "anders".</p>
+
+        <p>Diese sozialen Nuancen zeigen uns, wie Sprache unsere soziale Realität formt und widerspiegelt.</p>
+
+        <hr>
+
+        <h2>FOLIE 6: Abschluss</h2>
+
+        <p class="slide-marker"><strong>[Zeigen Sie Folie 6]</strong></p>
+
+        <p>Lassen Sie uns mit diesem Satz abschließen: "Verschiedene Leute haben andere Meinungen und sie denken anders. Das ist der Unterschied zwischen ihnen."</p>
+
+        <p>Dieser eine Satz benutzt vier unserer fünf Wörter, und jedes hat seine spezifische Funktion:</p>
+
+        <ul>
+            <li><strong>Verschiedene Leute</strong> - es gibt viele Arten von Menschen, nicht nur eine</li>
+            <li><strong>andere Meinungen</strong> - ihre Meinungen sind nicht wie unsere, sie sind alternativ</li>
+            <li><strong>denken anders</strong> - die Art und Weise ihres Denkens ist nicht gleich</li>
+            <li><strong>der Unterschied</strong> - das ist die objektive, messbare Differenz zwischen ihnen</li>
+        </ul>
+
+        <p>Was zeigt uns das? Die deutsche Sprache gibt uns nicht nur ein Wort für "different", sondern ein ganzes Toolkit von präzisen Werkzeugen. Jedes Wort hat seine eigene grammatische Funktion, seine eigene semantische Nuance und seinen eigenen sozialen Kontext.</p>
+
+        <p>Diese linguistische Präzision existiert nicht in allen Sprachen. Im Englischen würden Sie wahrscheinlich viermal "different" sagen. Im Deutschen haben Sie vier verschiedene Wörter mit unterschiedlichen Bedeutungen, die anders funktionieren - und das ist der Unterschied.</p>
+
+        <p>Die Sprache zeigt uns, wie komplex und nuanciert unsere Wahrnehmung von "anders sein" wirklich ist. Es ist nicht nur eine linguistische Kuriosität - es ist ein Fenster in die Art, wie Deutschsprachige die Welt kategorisieren und verstehen.</p>
+
+        <hr>
+
+        <h2>Zusätzliche Erklärungen für Fragen</h2>
+
+        <h3>Vokabelhilfe:</h3>
+        <ul>
+            <li>die Nuance = feiner Unterschied</li>
+            <li>präzise = genau, exakt</li>
+            <li>die Abweichung = wenn etwas von der Norm abweicht</li>
+            <li>das Spektrum = Bereich von Möglichkeiten</li>
+            <li>variieren = sich ändern, manchmal so, manchmal so</li>
+            <li>das Adverb = Wort, das ein Verb beschreibt</li>
+            <li>das Adjektiv = Wort, das ein Nomen beschreibt</li>
+            <li>deklinieren = Endungen ändern je nach Fall</li>
+        </ul>
+
+        <h3>Häufige Fehler:</h3>
+        <ul>
+            <li>"ein anders Buch" ❌ → "ein anderes Buch" ✓</li>
+            <li>"sehr andere" ❌ → "sehr anders" ✓ oder "sehr unterschiedlich" ✓</li>
+            <li>"der verschiedene Unterschied" (redundant) → "der große Unterschied" ✓</li>
+        </ul>
+
+        <h3>Übersetzungshinweise:</h3>
+        <p>Diese Nuancen lassen sich schwer in andere Sprachen übersetzen. Im Englischen müssen Sie oft den Kontext hinzufügen:</p>
+        <ul>
+            <li>verschieden → various, diverse</li>
+            <li>andere → other, different</li>
+            <li>anders → differently</li>
+            <li>Unterschied → difference</li>
+            <li>unterschiedlich → varying, different</li>
+        </ul>
+
+        <p>Aber diese Übersetzungen erfassen nicht die volle Bedeutung der deutschen Wörter.</p>
+    </div>
+
+    <script>
+        let fontSize = 100;
+        const content = document.getElementById('content');
+        const sizeDisplay = document.getElementById('sizeDisplay');
+
+        // Load saved font size from localStorage
+        const savedSize = localStorage.getItem('presentationFontSize');
+        if (savedSize) {
+            fontSize = parseInt(savedSize);
+            updateFontSize();
+        }
+
+        function increaseSize() {
+            if (fontSize < 200) {
+                fontSize += 10;
+                updateFontSize();
+                saveSize();
+            }
+        }
+
+        function decreaseSize() {
+            if (fontSize > 50) {
+                fontSize -= 10;
+                updateFontSize();
+                saveSize();
+            }
+        }
+
+        function resetSize() {
+            fontSize = 100;
+            updateFontSize();
+            saveSize();
+        }
+
+        function updateFontSize() {
+            content.style.fontSize = fontSize + '%';
+            sizeDisplay.textContent = fontSize + '%';
+        }
+
+        function saveSize() {
+            localStorage.setItem('presentationFontSize', fontSize);
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            if (e.key === '+' || e.key === '=') {
+                increaseSize();
+            } else if (e.key === '-') {
+                decreaseSize();
+            } else if (e.key === '0') {
+                resetSize();
+            }
+        });
+    </script>
+</body>
+</html>
